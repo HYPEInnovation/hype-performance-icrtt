@@ -15,6 +15,7 @@ class ICRTTSimulation extends Simulation {
 
 
 	setUp(
-        ScenarioCreateCIC.scn.users(1).protocolConfig(httpConf)
+        ScenarioCreateCIC.scn.users(1).protocolConfig(httpConf),
+        ScenarioReportIL6MC.scn.users(1).protocolConfig(httpConf)
     )
 }
