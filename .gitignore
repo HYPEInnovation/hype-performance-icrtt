@@ -1,0 +1,10 @@
+# Outputfolder
+target
+
+#IDEA project files
+.idea
+*.iml
+
+# OS Stuff
+Thumbs.db
+
